@@ -1,0 +1,70 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+  
+   homeSubtitle = "Just makes software" 
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "Barış's Home"
+    subtitle = "Barış Gül Blog and Portfolio Site"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "home = new code {}"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+	
+# Social icons  
+  [[params.social]]
+    name = "email"
+    url  = "mailto:bariss.gull@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/barisgul"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/barisgul"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/12804575/barış"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+	
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Resume"
+    url        = "/resume"
