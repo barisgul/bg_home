@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Barış Gül's Blog Site"
 theme = "hello-friend-ng"
 
 [params]
@@ -15,7 +15,7 @@ theme = "hello-friend-ng"
    homeSubtitle = "Just makes software" 
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "Barış's Blog Site"
   keywords = "homepage, blog"
   images = [""]
 
