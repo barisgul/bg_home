@@ -1,4 +1,4 @@
-baseURL = "barisgul.github.io"
+baseURL = "/"
 languageCode = "en-us"
 title = "Barış's Home"
 theme = "hello-friend-ng"
