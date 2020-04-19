@@ -20,7 +20,7 @@ Ardından repoyu oluşturabilirsiniz. \
 Repoyu oluşturduğunuzdan emin olmak için reponun içindeyseniz Settings alanından Options seçeneği altında Github Pages başlığı altında aşağıdaki
 ibareyi görmeniz subdomain ile siteyi publish ettiğinizi gösterir. (benim için şu url: https://github.com/barisgul/barisgul.github.io/settings)
 
-# ![](https://raw.githubusercontent.com/barisgul/bg_home/master/resources/_gen/images/githubPageIsActive.PNG) 
+# ![](https://raw.githubusercontent.com/barisgul/bg_home/master/resources/_gen/images/githubPagesIsActive.PNG) 
 
-
+Bir sonraki yazıda site için template seçimini yapıp kurulumunu inceleyeceğiz. 
 
